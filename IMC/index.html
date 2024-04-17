@@ -15,7 +15,7 @@
         <section>
             <h2>Cadastro de informações</h2>
 
-            <form method="post" onsubmit="calcularImc(event)">
+            <form method="post" onsubmit="CalcularValores(event)">
 
                 <div class="campo-form">
                     <label for="nome">Nome:</label>
@@ -24,12 +24,12 @@
 
                 <div class="campo-form">
                     <label for="altura"> Altura:</label>
-                    <input type="number" name="campo-altura" id="height" placeholder="Insira sua altura. EX: 1.85">
+                    <input type="number" name="campo-altura" id="height" step="0.01" min="0.1" max="10" placeholder="Insira sua altura. EX: 1.85">
                 </div>
 
                 <div class="campo-form">
                     <label for="peso"> Peso:</label>
-                    <input type="number" name="campo-peso" id="weight" placeholder="Insira seu peso em Kg. EX: 85">     
+                    <input type="number" name="campo-peso" id="weight"  step="0.01" min="0.1" max="300" placeholder="Insira seu peso em Kg. EX: 85">     
                 </div>
 
                 <div class="cojunto-botoes">

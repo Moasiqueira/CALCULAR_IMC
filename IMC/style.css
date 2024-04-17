@@ -124,6 +124,10 @@ caption, th, td{
     padding: 15px;
 }
 
+.linha-mensagem td {
+    text-align: center;
+}
+
 .botao-tabela{
     background-color: #9e34e9;
     color: white;
